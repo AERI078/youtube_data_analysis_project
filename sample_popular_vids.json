@@ -1,0 +1,433 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "KujvAnMYcex9F9nuaD1XJrXCtbs",
+    "items": [
+      {
+        "kind": "youtube#video",
+        "etag": "e4jQ9suNO64Ji6gIX_238K9b170",
+        "id": "Nfbj7Uf1ZKk",
+        "snippet": {
+          "publishedAt": "2025-02-20T01:00:27Z",
+          "channelId": "UCpWKlxbmDIIjXNSN2qE3iXQ",
+          "title": "Emergency c-section birth vlog!!",
+          "description": "Kaysen lane early arrival!",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Nfbj7Uf1ZKk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Nfbj7Uf1ZKk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Nfbj7Uf1ZKk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Nfbj7Uf1ZKk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          "channelTitle": "Keir&Trev",
+          "categoryId": "22",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Emergency c-section birth vlog!!",
+            "description": "Kaysen lane early arrival!"
+          }
+        },
+        "contentDetails": {
+          "duration": "PT16M51S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "58731",
+          "likeCount": "2711",
+          "favoriteCount": "0",
+          "commentCount": "288"
+        },
+        "topicDetails": {
+          "topicCategories": [
+            "https://en.wikipedia.org/wiki/Health",
+            "https://en.wikipedia.org/wiki/Lifestyle_(sociology)"
+          ]
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "QZAqDU_eNCnu5zuMqYrViV9GpKQ",
+        "id": "mFuyX1XgJFg",
+        "snippet": {
+          "publishedAt": "2025-02-19T16:12:20Z",
+          "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+          "title": "Introducing iPhone 16e - February 19",
+          "description": "The latest iPhone at the greatest price — iPhone 16e is here. It’s built for Apple Intelligence and powered by A18, the latest-generation chip. It also comes with supersized battery life, a 48MP Fusion camera, and a durable design. \n\nPricing, claims, and feature availability apply to the U.S. and may vary by region. For product details specific to your area, please refer to Apple.com.\n\nLearn more: https://apple.co/4i7NQ3L\n\nTo watch the event interpreted in American Sign Language (ASL), please click here: https://apple.co/4gKUVpD\n\nAudio Descriptions: https://apple.co/3EIPzOq\n\n“Supersonic” by Baauer\n“Muay Thai” by Uma https://apple.co/Uma-Muay-Thai\n“J0YR1D3” by BABii (feat. Iglooghost & Pholo) https://apple.co/BABii-J0YR1D3\n“Still Riding” by Barry Can’t Swim https://apple.co/Barry-Cant-Swim-Still-Riding\n“Bobby” by Nick Leng https://apple.co/Nick-Leng-Bobby\n“S.N.C” by DARKSIDE https://apple.co/DARKSIDE-SNC\n“UMPA” by Fcukers https://apple.co/Fcukers-UMPA\n“Mothers” by Fcukers https://apple.co/Fcukers-Mothers\n\n#iPhone16e #AppleIntelligence #AppleLaunch\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Our more than 160,000 employees are dedicated to making the best products on earth and to leaving the world better than we found it.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/mFuyX1XgJFg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/mFuyX1XgJFg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/mFuyX1XgJFg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/mFuyX1XgJFg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/mFuyX1XgJFg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Apple",
+          "tags": [
+            "Apple",
+            "Apple announcement",
+            "Apple Launch",
+            "iPhone",
+            "iPhone 16e",
+            "iPhone 16",
+            "Apple Intelligence",
+            "iOS 18",
+            "A18 chip",
+            "Apple silicon",
+            "camera",
+            "camera system",
+            "privacy",
+            "design",
+            "durable design",
+            "Ceramic Shield",
+            "apps",
+            "personal",
+            "personal intelligence",
+            "battery life"
+          ],
+          "categoryId": "28",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Introducing iPhone 16e - February 19",
+            "description": "The latest iPhone at the greatest price — iPhone 16e is here. It’s built for Apple Intelligence and powered by A18, the latest-generation chip. It also comes with supersized battery life, a 48MP Fusion camera, and a durable design. \n\nPricing, claims, and feature availability apply to the U.S. and may vary by region. For product details specific to your area, please refer to Apple.com.\n\nLearn more: https://apple.co/4i7NQ3L\n\nTo watch the event interpreted in American Sign Language (ASL), please click here: https://apple.co/4gKUVpD\n\nAudio Descriptions: https://apple.co/3EIPzOq\n\n“Supersonic” by Baauer\n“Muay Thai” by Uma https://apple.co/Uma-Muay-Thai\n“J0YR1D3” by BABii (feat. Iglooghost & Pholo) https://apple.co/BABii-J0YR1D3\n“Still Riding” by Barry Can’t Swim https://apple.co/Barry-Cant-Swim-Still-Riding\n“Bobby” by Nick Leng https://apple.co/Nick-Leng-Bobby\n“S.N.C” by DARKSIDE https://apple.co/DARKSIDE-SNC\n“UMPA” by Fcukers https://apple.co/Fcukers-UMPA\n“Mothers” by Fcukers https://apple.co/Fcukers-Mothers\n\n#iPhone16e #AppleIntelligence #AppleLaunch\n\nWelcome to the official Apple YouTube channel. Here you’ll find news about product launches, tutorials, and other great content. Our more than 160,000 employees are dedicated to making the best products on earth and to leaving the world better than we found it."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT12M50S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "true",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": false,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "7310956",
+          "likeCount": "191416",
+          "favoriteCount": "0"
+        },
+        "topicDetails": {
+          "topicCategories": [
+            "https://en.wikipedia.org/wiki/Lifestyle_(sociology)",
+            "https://en.wikipedia.org/wiki/Technology"
+          ]
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "XP3f1pOh7mozzwQKovxl2gi12nQ",
+        "id": "6ORBFXYlQ3U",
+        "snippet": {
+          "publishedAt": "2025-02-18T18:04:12Z",
+          "channelId": "UCWzmOSSiSPbVnVu3ZAyDx2w",
+          "title": "Human Torch: Hottest Hero In Town | Character Reveal | Marvel Rivals",
+          "description": "Johnny Storm is the Fantastic Four's resident hothead heartthrob, always managing to look cool while turning up the heat! Johnny joined his sister on a wild experimental space mission in the hopes of visiting the stars, instead, he became the brightest star of them all with the power to ignite his body as the Human Torch!\n \nThe Human Torch adds an intense flare to every battle with scorching flames. When he's not busy burning Dracula's legions with flames brighter than the sun itself, he's soaring across the city to gather Chronovium and scavenge for parts of the Timestream Reintegration Device.\n \nOn February 21, turn up the heat with the hottest hero in town! 🔥\n\nStay tuned—new updates will be unveiled in 1 hour!\n\nPlay free now on: \n🔹 Steam: https://t.co/IPhy0Of1cG\n🔹 PlayStation: https://t.co/FR0aVfTmcn\n🔹 Xbox: https://t.co/GaAYz7Nku6\n🔹 Epic Games: https://t.co/QXoxz0VAP7\n \nFollow #MarvelRivals for the latest news:\n🔹 Discord: https://discord.gg/marvelrivals\n🔹 Twitter: https://twitter.com/MarvelRivals\n🔹 Instagram: https://www.instagram.com/marvelrivals/\n🔹 Facebook: https://www.facebook.com/marvelrivals/\n🔹 Tiktok: https://www.tiktok.com/@marvelrivals\n🔹 Twitch: https://www.twitch.tv/marvelrivals\n \n#MarvelRiva #HumanTorch",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/6ORBFXYlQ3U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6ORBFXYlQ3U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6ORBFXYlQ3U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/6ORBFXYlQ3U/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/6ORBFXYlQ3U/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Marvel Rivals",
+          "categoryId": "20",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Human Torch: Hottest Hero In Town | Character Reveal | Marvel Rivals",
+            "description": "Johnny Storm is the Fantastic Four's resident hothead heartthrob, always managing to look cool while turning up the heat! Johnny joined his sister on a wild experimental space mission in the hopes of visiting the stars, instead, he became the brightest star of them all with the power to ignite his body as the Human Torch!\n \nThe Human Torch adds an intense flare to every battle with scorching flames. When he's not busy burning Dracula's legions with flames brighter than the sun itself, he's soaring across the city to gather Chronovium and scavenge for parts of the Timestream Reintegration Device.\n \nOn February 21, turn up the heat with the hottest hero in town! 🔥\n\nStay tuned—new updates will be unveiled in 1 hour!\n\nPlay free now on: \n🔹 Steam: https://t.co/IPhy0Of1cG\n🔹 PlayStation: https://t.co/FR0aVfTmcn\n🔹 Xbox: https://t.co/GaAYz7Nku6\n🔹 Epic Games: https://t.co/QXoxz0VAP7\n \nFollow #MarvelRivals for the latest news:\n🔹 Discord: https://discord.gg/marvelrivals\n🔹 Twitter: https://twitter.com/MarvelRivals\n🔹 Instagram: https://www.instagram.com/marvelrivals/\n🔹 Facebook: https://www.facebook.com/marvelrivals/\n🔹 Tiktok: https://www.tiktok.com/@marvelrivals\n🔹 Twitch: https://www.twitch.tv/marvelrivals\n \n#MarvelRiva #HumanTorch"
+          }
+        },
+        "contentDetails": {
+          "duration": "PT59S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "2666211",
+          "likeCount": "120886",
+          "favoriteCount": "0",
+          "commentCount": "7863"
+        },
+        "topicDetails": {
+          "topicCategories": [
+            "https://en.wikipedia.org/wiki/Action-adventure_game",
+            "https://en.wikipedia.org/wiki/Action_game",
+            "https://en.wikipedia.org/wiki/Role-playing_video_game",
+            "https://en.wikipedia.org/wiki/Strategy_video_game",
+            "https://en.wikipedia.org/wiki/Video_game_culture"
+          ]
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "2nwZNPq7h07Pv8Q3gk0DTr-tESU",
+        "id": "l44udAAD3Yc",
+        "snippet": {
+          "publishedAt": "2025-02-18T19:00:35Z",
+          "channelId": "UCWzmOSSiSPbVnVu3ZAyDx2w",
+          "title": "The Thing: You Know What Time It Is | Character Reveal | Marvel Rivals",
+          "description": "Benjamin J. Grimm is undeniably the unwavering heart of any team. Always at the forefront of any fight, he's ready to take the lead with his unbreakable form. \n \nBen Grimm originally signed up to be a pilot for his pal Reed, but he never imagined that he'd return from the mission as an indescribable monster: The Thing. Even though beaming cosmic rays transformed his flesh, a heart of gold still beats his rocky exterior.\n \nAs New York City plunged into eternal night, the Thing has made it his mission to selflessly protect his home and lead missions to collect Chronovium by putting his piloting skills to the test.\n \nShield your allies and stand at the forefront of chaos as The Thing on February 21. 🪨\n\nKeep an eye out—more news will drop in just 1 hour!\n\nPlay free now on: \n🔹 Steam: https://t.co/IPhy0Of1cG\n🔹 PlayStation: https://t.co/FR0aVfTmcn\n🔹 Xbox: https://t.co/GaAYz7Nku6\n🔹 Epic Games: https://t.co/QXoxz0VAP7\n \nFollow #MarvelRivals for the latest news:\n🔹 Discord: https://discord.gg/marvelrivals\n🔹 Twitter: https://twitter.com/MarvelRivals\n🔹 Instagram: https://www.instagram.com/marvelrivals/\n🔹 Facebook: https://www.facebook.com/marvelrivals/\n🔹 Tiktok: https://www.tiktok.com/@marvelrivals\n🔹 Twitch: https://www.twitch.tv/marvelrivals\n \n#MarvelRivals #TheThing",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/l44udAAD3Yc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/l44udAAD3Yc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/l44udAAD3Yc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/l44udAAD3Yc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/l44udAAD3Yc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Marvel Rivals",
+          "categoryId": "20",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "The Thing: You Know What Time It Is | Character Reveal | Marvel Rivals",
+            "description": "Benjamin J. Grimm is undeniably the unwavering heart of any team. Always at the forefront of any fight, he's ready to take the lead with his unbreakable form. \n \nBen Grimm originally signed up to be a pilot for his pal Reed, but he never imagined that he'd return from the mission as an indescribable monster: The Thing. Even though beaming cosmic rays transformed his flesh, a heart of gold still beats his rocky exterior.\n \nAs New York City plunged into eternal night, the Thing has made it his mission to selflessly protect his home and lead missions to collect Chronovium by putting his piloting skills to the test.\n \nShield your allies and stand at the forefront of chaos as The Thing on February 21. 🪨\n\nKeep an eye out—more news will drop in just 1 hour!\n\nPlay free now on: \n🔹 Steam: https://t.co/IPhy0Of1cG\n🔹 PlayStation: https://t.co/FR0aVfTmcn\n🔹 Xbox: https://t.co/GaAYz7Nku6\n🔹 Epic Games: https://t.co/QXoxz0VAP7\n \nFollow #MarvelRivals for the latest news:\n🔹 Discord: https://discord.gg/marvelrivals\n🔹 Twitter: https://twitter.com/MarvelRivals\n🔹 Instagram: https://www.instagram.com/marvelrivals/\n🔹 Facebook: https://www.facebook.com/marvelrivals/\n🔹 Tiktok: https://www.tiktok.com/@marvelrivals\n🔹 Twitch: https://www.twitch.tv/marvelrivals\n \n#MarvelRivals #TheThing"
+          }
+        },
+        "contentDetails": {
+          "duration": "PT1M4S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": false,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "2800740",
+          "likeCount": "135705",
+          "favoriteCount": "0",
+          "commentCount": "10504"
+        },
+        "topicDetails": {
+          "topicCategories": [
+            "https://en.wikipedia.org/wiki/Action-adventure_game",
+            "https://en.wikipedia.org/wiki/Action_game",
+            "https://en.wikipedia.org/wiki/Role-playing_video_game",
+            "https://en.wikipedia.org/wiki/Strategy_video_game",
+            "https://en.wikipedia.org/wiki/Video_game_culture"
+          ]
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "QTKHuTqgkw3s4EIFcp6xQAsMeB4",
+        "id": "3EVrS7yU1Qc",
+        "snippet": {
+          "publishedAt": "2025-02-19T17:00:03Z",
+          "channelId": "UCIsbLox_y9dCIMLd8tdC6qg",
+          "title": "Lady Gaga Takes a Lie Detector Test | Vanity Fair",
+          "description": "Does Lady Gaga actually have a good poker face? Lady Gaga takes Vanity Fair's infamous lie detector test. Is it true that she once wanted to perform inside of a vending machine? What is the longest time she's spent doomscrolling on TikTok? If she were to delete one song from her discography, which one would it be? Is she more of a Glinda or an Elphaba? \r\n\r\nDirector: Jackie Phillips\r\nDirector of Photography: Ricardo Pomares\r\nEditor: Michael Penhollow\r\nTalent: Lady Gaga\r\nLie Detector Operator: Stephanie Jackson\r\nProducer: Emebeit Beyene\r\nProduction Manager: Andressa Pelachi\r\nProduction Coordinator: Elizabeth Hymes\r\nTalent Booker: Lauren Mendoza\r\nCamera Operator: Brooke Mueller\r\nAudio Engineer: Justin Fox\r\nProduction Assistant: Lauren Boucher; Spencer Mathesen\r\nPost Production Supervisor: Christian Olguin\r\nPost Production Coordinator: Ian Bryant\r\nSupervising Editor: Doug Larsen\r\nAdditional Editor: Paul Tael\r\nAssistant Editor: Fynn Lithgow\r\nVoiceover: Emebeit Beyene\n\nStill haven’t subscribed to Vanity Fair on YouTube? ►► http://bit.ly/2z6Ya9M\r\n\r\nWant to stay in the know? Subscribe to Vanity Fair Magazine and be exquisitely informed ►► http://vntyfr.com/2RuQGW2\r\n\r\nABOUT VANITY FAIR\r\nArts and entertainment, business and media, politics, and world affairs—Vanity Fair’s features and exclusive videos capture the people, places, and ideas that define modern culture.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/3EVrS7yU1Qc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3EVrS7yU1Qc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3EVrS7yU1Qc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/3EVrS7yU1Qc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/3EVrS7yU1Qc/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Vanity Fair",
+          "tags": [
+            "celebrity",
+            "comedy",
+            "gaga",
+            "lady gaga",
+            "lady gaga album",
+            "lady gaga best songs",
+            "lady gaga bruno mars",
+            "lady gaga fashion",
+            "lady gaga funny",
+            "lady gaga interview",
+            "lady gaga lie detector",
+            "lady gaga makeup",
+            "lady gaga new album",
+            "lady gaga new music",
+            "lady gaga new songs",
+            "lady gaga outfit",
+            "lady gaga songs",
+            "lady gaga vanity fair",
+            "pop",
+            "pop music",
+            "science & tech",
+            "science & technology",
+            "science and tech",
+            "science and technology",
+            "top music",
+            "vanity fair"
+          ],
+          "categoryId": "24",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Lady Gaga Takes a Lie Detector Test | Vanity Fair",
+            "description": "Does Lady Gaga actually have a good poker face? Lady Gaga takes Vanity Fair's infamous lie detector test. Is it true that she once wanted to perform inside of a vending machine? What is the longest time she's spent doomscrolling on TikTok? If she were to delete one song from her discography, which one would it be? Is she more of a Glinda or an Elphaba? \r\n\r\nDirector: Jackie Phillips\r\nDirector of Photography: Ricardo Pomares\r\nEditor: Michael Penhollow\r\nTalent: Lady Gaga\r\nLie Detector Operator: Stephanie Jackson\r\nProducer: Emebeit Beyene\r\nProduction Manager: Andressa Pelachi\r\nProduction Coordinator: Elizabeth Hymes\r\nTalent Booker: Lauren Mendoza\r\nCamera Operator: Brooke Mueller\r\nAudio Engineer: Justin Fox\r\nProduction Assistant: Lauren Boucher; Spencer Mathesen\r\nPost Production Supervisor: Christian Olguin\r\nPost Production Coordinator: Ian Bryant\r\nSupervising Editor: Doug Larsen\r\nAdditional Editor: Paul Tael\r\nAssistant Editor: Fynn Lithgow\r\nVoiceover: Emebeit Beyene\n\nStill haven’t subscribed to Vanity Fair on YouTube? ►► http://bit.ly/2z6Ya9M\r\n\r\nWant to stay in the know? Subscribe to Vanity Fair Magazine and be exquisitely informed ►► http://vntyfr.com/2RuQGW2\r\n\r\nABOUT VANITY FAIR\r\nArts and entertainment, business and media, politics, and world affairs—Vanity Fair’s features and exclusive videos capture the people, places, and ideas that define modern culture."
+          },
+          "defaultAudioLanguage": "en-US"
+        },
+        "contentDetails": {
+          "duration": "PT13M47S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "true",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": false,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "542908",
+          "likeCount": "44921",
+          "favoriteCount": "0",
+          "commentCount": "2623"
+        },
+        "topicDetails": {
+          "topicCategories": [
+            "https://en.wikipedia.org/wiki/Entertainment"
+          ]
+        }
+      }
+    ],
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+      "totalResults": 200,
+      "resultsPerPage": 5
+    }
+  }
+  
