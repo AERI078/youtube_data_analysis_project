@@ -14,7 +14,7 @@ DATA_FILE_PATH = 'youtube_video_data.csv'
 def main():
     api_service_name = "youtube"
     api_version = "v3"
-    api_key = "AIzaSyBH_tlmqqSWUGYTGHoWGTRlqFGONWOdLLo"
+    api_key = os.environ.get('YOUTUBE_API_KEY')
 
     youtube = auth(api_service_name, api_version, api_key)
 
