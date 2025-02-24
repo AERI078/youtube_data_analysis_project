@@ -1,14 +1,15 @@
+import time
 import os
-
-import google_auth_oauthlib.flow
-import googleapiclient.discovery
-import googleapiclient.errors
 import pandas as pd
 
+import googleapiclient.discovery
+import googleapiclient.errors
+
 # global variables
-# region codes - 'US' 'IN' 'br' 'id' 'mx'
-MAX_RESULTS = 10
-REGION_CODE = 'MX'
+MAX_RESULTS = 1
+DATA_FILE_PATH = 'youtube_video_data.csv'
+# DATA_FILE_PATH = 'test.csv'
+
 
 def main():
     api_service_name = "youtube"
@@ -17,10 +18,22 @@ def main():
 
     youtube = auth(api_service_name, api_version, api_key)
 
-    data = get_data(youtube)
+    columns = ['id', 'region_code', 'publish_date', 'channel_id', 'channel_name',
+                'title', 'description', 'category_id', 'duration', 'caption', 'views',
+                'likes', 'comment_count']
 
-    df = pd.DataFrame(data)
-    df.to_csv('youtube_video_data.csv', mode='a', header=False)
+    data = []
+    # ['IN', 'US', 'BR', 'ID', 'MX']
+    for region_code in ['IN', 'US', 'BR', 'ID', 'MX']:
+        data.extend(get_data(youtube, region_code))
+        time.sleep(10)
+
+    df = pd.DataFrame(data, columns=columns)
+
+    write_header = not os.path.exists(DATA_FILE_PATH)
+
+    df.to_csv(DATA_FILE_PATH, mode='a', header=write_header, index=False)
+    #df.to_csv('youtube_video_data.csv', mode='a', header=False)
 
 
 
@@ -30,72 +43,34 @@ def auth(api_service_name, api_version, api_key):
         serviceName=api_service_name, version=api_version, developerKey=api_key)
     return youtube
 
-#  1st request object
-def get_data(youtube):
+
+def get_data(youtube_object, region_code):
     data_list = []
 
-    request = youtube.videos().list(
+    request = youtube_object.videos().list(
         part="snippet,contentDetails,statistics,id",
         chart="mostPopular",
-        regionCode=REGION_CODE,
+        regionCode=region_code,
         maxResults=MAX_RESULTS
     )
 
     response = request.execute()
 
-    # for i in range(MAX_RESULTS):
-
-
-    data_dict = {
-        "id" : response["items"][0]["id"],
-        "region_code" : REGION_CODE,
-        "publish_date" : response["items"][0]["snippet"]["publishedAt"],
-        "channel_id" : response["items"][0]["snippet"]["channelId"],
-        "title" : response["items"][0]["snippet"]["title"],
-        "description" : response["items"][0]["snippet"]["description"],
-        "channel_name" : response["items"][0]["snippet"]["channelTitle"],
-        "category_id" : response["items"][0]["snippet"]["categoryId"],
-        "duration" : response["items"][0]["contentDetails"]["duration"],
-        "caption" : response["items"][0]["contentDetails"]["caption"],
-        "views" : response["items"][0]["statistics"]["viewCount"],
-        "likes" : response["items"][0]["statistics"]["likeCount"],
-        "comment_count" : response["items"][0]["statistics"]["commentCount"],
-        "next_page_token" : response['nextPageToken']
-    }
-
-    data_list.append(data_dict)
-    next_page_token = response['nextPageToken']
-
-    # other requests
-    if((MAX_RESULTS - 1) == 0):
-        return data_list
-    
-    for i in range(1, MAX_RESULTS):
-        request = youtube.videos().list(
-            part="snippet,contentDetails,statistics,id",
-            chart="mostPopular",
-            regionCode=REGION_CODE,
-            maxResults=MAX_RESULTS,
-            pageToken=next_page_token
-        )
-
-        response = request.execute()
-
+    for i in range(MAX_RESULTS):
         data_dict = {
             "id" : response["items"][i]["id"],
-            "region_code" : REGION_CODE,
+            "region_code" : region_code,
             "publish_date" : response["items"][i]["snippet"]["publishedAt"],
             "channel_id" : response["items"][i]["snippet"]["channelId"],
-            "title" : response["items"][i]["snippet"]["title"],
-            "description" : response["items"][i]["snippet"]["description"],
             "channel_name" : response["items"][i]["snippet"]["channelTitle"],
+            "title" : response["items"][i]["snippet"]["title"],
+            "description" : response["items"][i]["snippet"].get("description", 0),
             "category_id" : response["items"][i]["snippet"]["categoryId"],
             "duration" : response["items"][i]["contentDetails"]["duration"],
             "caption" : response["items"][i]["contentDetails"]["caption"],
-            "views" : response["items"][i]["statistics"]["viewCount"],
-            "likes" : response["items"][i]["statistics"]["likeCount"],
-            "comment_count" : response["items"][i]["statistics"]["commentCount"],
-            "next_page_token" : response['nextPageToken']
+            "views" : response["items"][i]["statistics"].get("viewCount", 0),
+            "likes" : response["items"][i]["statistics"].get("likeCount", 0),
+            "comment_count" : response["items"][i]["statistics"].get("commentCount", 0)
         }
 
         data_list.append(data_dict)
