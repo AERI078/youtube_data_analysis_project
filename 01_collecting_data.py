@@ -6,10 +6,16 @@ import googleapiclient.discovery
 import googleapiclient.errors
 
 # global variables
-MAX_RESULTS = 1
+MAX_RESULTS = 10
 DATA_FILE_PATH = 'youtube_video_data.csv'
-# DATA_FILE_PATH = 'test.csv'
+#DATA_FILE_PATH = 'test.csv'
 
+""" !!!!!!!!!! BEFORE RUNNING CHECK !!!!!!!!!!!!!! ----------------------------------------
+1. MAX_RESULTS
+2. REGION CODE LIST
+3. DATA FILE PATH
+-------------------------------------------------------------------------------------------
+"""
 
 def main():
     api_service_name = "youtube"
@@ -33,7 +39,6 @@ def main():
     write_header = not os.path.exists(DATA_FILE_PATH)
 
     df.to_csv(DATA_FILE_PATH, mode='a', header=write_header, index=False)
-    #df.to_csv('youtube_video_data.csv', mode='a', header=False)
 
 
 
