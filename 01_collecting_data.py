@@ -29,10 +29,11 @@ def main():
                 'likes', 'comment_count']
 
     data = []
-    # ['IN', 'US', 'BR', 'ID', 'MX']
+    
+    # countries having the highest number of youtube users -> ['IN', 'US', 'BR', 'ID', 'MX']
     for region_code in ['IN', 'US', 'BR', 'ID', 'MX']:
         data.extend(get_data(youtube, region_code))
-        time.sleep(10)
+        time.sleep(2)
 
     df = pd.DataFrame(data, columns=columns)
 
@@ -42,13 +43,14 @@ def main():
 
 
 
-# Create an API client
+# Creates an API client
 def auth(api_service_name, api_version, api_key):
     youtube = googleapiclient.discovery.build(
         serviceName=api_service_name, version=api_version, developerKey=api_key)
     return youtube
 
 
+# Get data for a region code and return it in the form of list of dicts
 def get_data(youtube_object, region_code):
     data_list = []
 
@@ -80,10 +82,12 @@ def get_data(youtube_object, region_code):
 
         data_list.append(data_dict)
 
+    # to check number of pages in response
     print(response['pageInfo']['totalResults'])
     print(response['pageInfo']['resultsPerPage'])
 
     return data_list
+
 
 if __name__ == "__main__":
     main()
