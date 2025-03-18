@@ -1,14 +1,13 @@
-import time
 import os
+import time
 import pandas as pd
 
-import googleapiclient.discovery
-import googleapiclient.errors
+from mypackage import get_youtube_object
 
 # global variables
 MAX_RESULTS = 10
 DATA_FILE_PATH = 'youtube_video_data.csv'
-#DATA_FILE_PATH = 'test.csv'
+# DATA_FILE_PATH = 'test.csv'
 
 """ !!!!!!!!!! BEFORE RUNNING CHECK !!!!!!!!!!!!!! ----------------------------------------
 1. MAX_RESULTS
@@ -18,11 +17,7 @@ DATA_FILE_PATH = 'youtube_video_data.csv'
 """
 
 def main():
-    api_service_name = "youtube"
-    api_version = "v3"
-    api_key = os.environ.get('YOUTUBE_API_KEY')
-
-    youtube = auth(api_service_name, api_version, api_key)
+    youtube = get_youtube_object()
 
     columns = ['id', 'region_code', 'publish_date', 'channel_id', 'channel_name',
                 'title', 'description', 'category_id', 'duration', 'caption', 'views',
@@ -42,12 +37,6 @@ def main():
     df.to_csv(DATA_FILE_PATH, mode='a', header=write_header, index=False)
 
 
-
-# Creates an API client
-def auth(api_service_name, api_version, api_key):
-    youtube = googleapiclient.discovery.build(
-        serviceName=api_service_name, version=api_version, developerKey=api_key)
-    return youtube
 
 
 # Get data for a region code and return it in the form of list of dicts
