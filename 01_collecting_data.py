@@ -3,6 +3,8 @@ import time
 import pandas as pd
 
 from mypackage import get_youtube_object
+from pathlib import Path
+
 
 # global variables
 MAX_RESULTS = 10
