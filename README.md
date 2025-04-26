@@ -14,7 +14,7 @@
 - [Future Work](#for-future-improvements)
 
 ## Project Overview
-This project analyzes the most popular YouTube videos from five different countries over one month (approximately). The aim was to uncover patterns in video popularity based on views, likes, comments, duration, and category.
+This project analyzes the most popular YouTube videos from five different countries over one month (approximately). The aim was to create a dataset from scratch and uncover patterns in video popularity based on views, likes, comments, duration, and category.
 
 ## Data Description
 - **Dataset**: Top 10 trending YouTube videos daily from 5 countries scraped from Youtube Data API.
