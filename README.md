@@ -85,3 +85,8 @@ This project provided valuable insights into how YouTube content trends differ a
     - the titles and descriptions that were not in english were corrupted since VS Code is not UTF compatible.
 - Perform sentiment analysis on video titles and descriptions.
 - Predict trending potential using machine learning models.
+
+#### Resources
+- [YouTube Data API documentation](https://developers.google.com/youtube/v3/docs)
+- [**Data with Baraa**](https://github.com/DataWithBaraa) on YouTube
+- [**Krish Naik**](https://github.com/krishnaik06) on YouTube
