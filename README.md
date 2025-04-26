@@ -70,7 +70,7 @@ This project analyzes the most popular YouTube videos from five different countr
 ## How to Run the Project
 1. Clone the repository.
 2. Open the Jupyter Notebook (`eda_youtube.ipynb`) to view the analysis.
-3. Tableau dashboards are available separately (mention if link or file included).
+3. Tableau dashboards are available separately.
 4. Make sure you have installed required packages:
     ```
     pip install -r requirements.txt
