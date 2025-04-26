@@ -1,4 +1,7 @@
 # YouTube Trending Videos Analysis
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Made with Tableau](https://img.shields.io/badge/Made%20with-Tableau-orange)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -8,7 +11,7 @@
 - [Key Insights](#key-insights)
 - [How to Run the Project](#how-to-run-the-project)
 - [Conclusion](#conclusion)
-- [Future Work](#future-work)
+- [Future Work](#for-future-improvements)
 
 ## Project Overview
 This project analyzes the most popular YouTube videos from five different countries over one month (approximately). The aim was to uncover patterns in video popularity based on views, likes, comments, duration, and category.
@@ -36,6 +39,7 @@ This project analyzes the most popular YouTube videos from five different countr
 - Visual Studio Code
 
 ## Exploratory Data Analysis (EDA)
+- Cleaned and processed the dataset
 - Looked at distribution of data (univariate analysis)
 - Uncovered relationships between different metrics (bivariate analysis)
 - Discovered which categories perform best based on numerical metrics and countries
@@ -54,14 +58,14 @@ This project analyzes the most popular YouTube videos from five different countr
 - Shorter videos tended to generate **more likes and comments**, although view counts did not show a strong relationship with duration.
 
 ## Visualizations
-![Category vs Likes per Country](output/cat vs likes hue.png)
-![Comments Boxplot](output/df_clean comments boxplot.png)
-![Heatmap ](output/numerical heatmap.png)
-![Views Trend per Day](output/views per day hue.png)
+![Category vs Likes per Country](output/cat_vs_likes_hue.png)
+![Comments Boxplot](output/df_clean_comments_boxplot.png)
+![Heatmap ](output/numerical_heatmap.png)
+![Views Trend per Day](output/views_per_day_hue.png)
 
 ## Dashboard
-![Tableau Dasboard](output/tableau dashboard.png)
-![Tableau Dashboard with filters](output/tableau dashboard india likes.png)
+![Tableau Dasboard](output/tableau_dashboard.png)
+![Tableau Dashboard with filters](output/tableau_dashboard_india_likes.png)
 
 ## How to Run the Project
 1. Clone the repository.
