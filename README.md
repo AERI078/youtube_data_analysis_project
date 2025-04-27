@@ -11,13 +11,14 @@
 - [Key Insights](#key-insights)
 - [How to Run the Project](#how-to-run-the-project)
 - [Conclusion](#conclusion)
-- [Future Work](#for-future-improvements)
+- [For Future Improvements](#for-future-improvements)
+- [Resources](#resources)
 
 ## Project Overview
-This project analyzes the most popular YouTube videos from five different countries over one month (approximately). The aim was to create a dataset from scratch and uncover patterns in video popularity based on views, likes, comments, duration, and category.
+This project analyzes the most popular YouTube videos from five different countries over one month (approximately). The aim was to create a dataset from scratch and uncover patterns in video popularity based on views, likes, comments, duration, and category
 
 ## Data Description
-- **Dataset**: Top 10 trending YouTube videos daily from 5 countries scraped from Youtube Data API.
+- **Dataset**: Contains data of 10 most popular videos in 5 countries scraped daily at 12am IST
 - **Features**
     - `id` : video id 
     - `region_code` : country codes - [IN: India, US: USA, BR: Brazil, ID: Indonesia, MX: Mexico]	
@@ -86,7 +87,7 @@ This project provided valuable insights into how YouTube content trends differ a
 - Perform sentiment analysis on video titles and descriptions.
 - Predict trending potential using machine learning models.
 
-#### Resources
+## Resources
 - [YouTube Data API documentation](https://developers.google.com/youtube/v3/docs)
 - [**Data with Baraa**](https://github.com/DataWithBaraa) on YouTube
 - [**Krish Naik**](https://github.com/krishnaik06) on YouTube
