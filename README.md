@@ -83,7 +83,7 @@ This project provided valuable insights into how YouTube content trends differ a
 ## For Future Improvements
 - The data collection process was a bit tedious. 
     - it can be definitely optimized to collect data of more countries and longer time or even for multiple times a day (morning vs evening)
-    - the titles and descriptions that were not in english were corrupted since VS Code is not UTF compatible.
+    - the titles and descriptions that were not in english were corrupted becuase checking for UTF compatiblity was absent.
 - Perform sentiment analysis on video titles and descriptions.
 - Predict trending potential using machine learning models.
 
